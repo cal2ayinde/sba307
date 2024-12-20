@@ -1,0 +1,77 @@
+/* Custom styles for Car-eShop */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Full height for carousel items */
+.carousel-item {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Position header content over carousel */
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animation for buttons on hover */
+.btn {
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* Add some spacing to cards */
+.product-card {
+    margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .header-content h1 {
+        font-size: 1.5rem;
+    }
+}
+
+#company-name:hover{
+    /* background-color: red; */
+    /* this area is to have animation and mutiple color */
+    background: linear-gradient(skyblue, lightgreen);
+    padding: 2px;
+    transition: all .5s ease-in-out;
+}
+#H1:hover{
+    background: linear-gradient(skyblue, lightgreen);
+    padding: 2px;
+    transition: all .5s ease-in-out;
+}
+#P1:hover{
+    background: linear-gradient(skyblue, lightgreen);
+    padding: 2px;
+    transition: all .5s ease-in-out;
+
+}
+#C1:hover{
+    background: linear-gradient(skyblue, lightgreen);
+    padding: 2px;
+    transition: all .5s ease-in-out;
+}
